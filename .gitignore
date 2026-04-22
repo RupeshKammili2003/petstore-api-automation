@@ -1,0 +1,34 @@
+# Maven build output
+target/
+
+# TestNG output
+test-output/
+
+# Log files
+logs/
+*.log
+
+# Extent Reports (generated at runtime)
+reports/
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# VS Code files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java compiled files
+*.class
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar

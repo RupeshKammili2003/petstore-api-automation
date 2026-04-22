@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Petstore API Automation Suite" parallel="tests" verbose="1"
+	thread-count="4">
+
+	<listeners>
+		<listener class-name="utilites.ExtentReportListener" />
+	</listeners>
+
+	<test name="Pet JSON Tests">
+		<classes>
+			<class name="testsCases.PetTests" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Pet XML Tests">
+		<classes>
+			<class name="testsCases.PetsTestsXML" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Store Tests">
+		<classes>
+			<class name="testsCases.StoreTests" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="User Tests">
+		<classes>
+			<class name="testsCases.UserTests" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

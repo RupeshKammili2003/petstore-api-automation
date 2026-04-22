@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "petId": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "complete": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "petId",
+    "quantity",
+    "complete"
+  ]
+}
