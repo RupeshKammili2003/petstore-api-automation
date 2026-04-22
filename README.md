@@ -59,7 +59,7 @@ petstore-api-automation/
 
 | Tool | Purpose |
 |------|---------|
-| Java 8 | Programming language |
+| Java 8 or higher | Programming language |
 | RestAssured 5.3.0 | API testing library |
 | TestNG 7.8.0 | Test runner & assertions |
 | ExtentReports 5.0.9 | HTML test reporting |
